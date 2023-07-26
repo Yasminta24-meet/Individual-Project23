@@ -23,7 +23,7 @@
  {%for gossip in gossips%}
 <div id='rows' style="float: left;">
 		<p class='display' style="margin-left: 40px">{{gossips[gossip]['title']}}<br> <br> <br>
-		<img id='picss' style="margin-left: 40px" src="static/images/{{gossips[gossip]['picture']}}"style="margin-left: 40px"><br> <br>{{gossips[gossip]['gossip']}}</p>
+		<img id='picss' src="static/images/{{gossips[gossip]['picture']}}"><br> <br>{{gossips[gossip]['gossip']}}</p>
 </div>
  {%endfor%}
 
