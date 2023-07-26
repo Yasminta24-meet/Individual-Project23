@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<title>xoxo, meeter</title>
+</head>
+<body>
+	 <form method="POST" action="/signup">
+        <!-- Heading -->
+        <h4>
+            Create an account!
+        </h4>
+
+        <!-- Subheading -->
+        <p >
+            Please fill up your information below to sign up.
+        </p>
+
+        <!-- Email -->
+        <div>
+            <label>Email address</label>
+            <div>
+                <input type="email"  name="email" id="emailStr" placeholder="type email here" required>
+            </div>
+        </div>
+
+         <div>
+            <label>Full Name</label>
+            <div>
+                <input type="text"  name="full_name" id="fname" placeholder="type full name here" required>        </div>
+        </div>
+
+        <div>
+            <label>UserName</label>
+            <div>
+                <input type="text"  name="usernamee" id="uname" placeholder="type username here" required>
+            </div>
+        </div>
+
+         <!-- Password -->
+        <div>
+            <label>Password</label>
+            <div class="input-group">
+                <input type="password"  name="password" placeholder="type password here" minlength="6">
+            </div>
+        </div>
+
+        <div>
+            <label>Bio</label>
+            <div>
+                <input type="text"  name="bio" id="biooo" placeholder="tell us about yourself" maxlength=280 required>
+            </div>
+        </div>
+
+        <div>
+            <label>Gender</label>
+            <div>
+                <input type="radio"  name="female" value="Female" id="fmale">Female
+                <input type="radio"  name="male" value="Male" id="males">Male
+                <input type="radio"  name="other" value="Other" id="others">Other
+
+            </div>
+        </div>
+
+            
+
+        <!-- Password -->
+        <!-- <div>
+            <label>Password*</label>
+            <div class="input-group">
+                <input type="password"  name="password" minlength="6">
+            </div>
+        </div> -->
+        
+        <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+
+</body>
+</html>

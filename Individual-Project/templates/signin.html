@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<title>xoxo, Meeter</title>
+</head>
+<body>
+	<form method="POST" action="/signin">
+        <!-- Heading -->
+        <h4>
+        Log in to your account
+        </h4>
+
+        <!-- Subheading -->
+        <p >
+        Please fill up your information below to sign in.
+        </p>
+
+        <!-- Email -->
+        <div>
+            <label>Email address</label>
+            <div>
+                <input type="email"  name="email" id="emailStr" required>
+            </div>
+        </div>
+
+        <!-- Password -->
+        <div>
+            <label>Password</label>
+            <div class="input-group">
+                <input type="password"  name="password" minlength="6">
+            </div>
+        </div>
+        
+        <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+
+</body>
+</html>

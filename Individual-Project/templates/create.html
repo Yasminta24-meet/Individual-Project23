@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<title>xoxo, meeter</title>
+</head>
+<body>
+	 <form action="/create" method="POST" enctype="multipart/form-data">
+	 	<h4>What's up, Upper East Siders?</h4>
+	 	<label>Subject</label>
+        <input type="text" name="title" placeholder="Write title" required>
+        <br>
+        <label>What's the gossip?</label>
+        <input type="text" name="gossip" maxlength=10000 placeholder="Write your tea here..." required />
+        <br>
+        <label>Add a photo?</label>
+        <input type="file" name="picture"  placeholder="insert image" required>
+
+        <div>
+            <button type="submit">Upload Gossip</button>
+        </div>
+    </form>
+
+</body>
+</html>
