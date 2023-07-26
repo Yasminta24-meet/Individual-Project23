@@ -66,6 +66,7 @@ button:hover {
   height: auto;
   box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
   padding: 2%;
+  align-items: center;
 }
 
 #pro{
